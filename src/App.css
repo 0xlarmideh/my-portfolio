@@ -38,3 +38,13 @@ body {
 .link-track {
   letter-spacing: 4px;
 }
+
+.language {
+  letter-spacing: 48px;
+  font-size: 56px;
+}
+.in-link:hover {
+  border-bottom: 2px solid white;
+  color: white;
+  animation: transition 2s all;
+}
