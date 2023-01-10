@@ -6,14 +6,14 @@ const Description = () => {
     <div>
       <Heading
         title="Abdulhameed Busari"
-        className="text-white max-md:text-[45px] text-[64px] mb-6 "
+        className="text-white max-md:text-[45px] text-[60px] mb-6 "
       />
       <SmallHeading
-        title="FrontEnd Developer"
+        title="Front-End Developer"
         className="text-white text-[27px] mb-[45px] font-semibold tracking-wide "
       />
       <Paragraph
-        title="An architect in love with tech, delivering top-notch ser-centric designs with great meticulousness. "
+        title="An architect in love with tech, delivering top-notch user-centric designs with great meticulousness. "
         className="w-[65%] text=[14px] leading-[30px] "
       />
       <Paragraph

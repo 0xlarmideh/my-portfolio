@@ -1,30 +1,28 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import {Paragraph} from "../Components/Typography";
 
   const datas = [
-  { id: 1, 
-    title: "PROJECTS" },
-  { id: 2, 
-    title: "ARTICLES" },
-];
+    { id: 1, title: "PROJECTS" },
+    { id: 2, title: "ARTICLES" },
+    { id: 3, title: "TECHNOLOGIES" },
+  ];
 
 export default function Links() {
   const link = datas.map((item) => {
     return (
-      <div
+      <a
         key={item.id}
+        href="#"
         className="flex gap-[20px] items-center tracking-widest "
       >
-        <Paragraph
-          title={`0${item.id}`}
-          className="text-[11px] tracking-widest "
-        />
-        <div className="divider h-[1px] border-l-[24px] "></div>
+        <Paragraph title={`0${item.id}`} className="text-[11px] " />
+        <div className="divider h-[1px] border-l-[24px] hover:border-l-[48px] hover:h-[2px] "></div>
         <Paragraph
           title={`${item.title}`}
-          className="text-[11px] tracking-widest "
+          className="text-[11px] link-track "
         />
-      </div>
+      </a>
     );
   })
   return <div>{link}</div>;

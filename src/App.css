@@ -24,13 +24,17 @@ body {
 }
 
 .smallheading {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .subheading, .header-btn {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.link-track {
+  letter-spacing: 4px;
 }
