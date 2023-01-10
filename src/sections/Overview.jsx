@@ -5,7 +5,7 @@ import Socials from '../components/Socials';
 
 const Overview = () => {
   return (
-    <div className="overview fixed flex flex-col justify-between py-[45px] px-[30px]">
+    <div className="overview fixed flex flex-col justify-between py-[100px] px-[120px]">
       <Description/>
       <Links />
       <Socials />
