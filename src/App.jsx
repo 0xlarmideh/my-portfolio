@@ -10,7 +10,7 @@ function App() {
       <div className="grid-1 ">
         <Overview />
       </div>
-      <div className="grid-2 bg-dark p-[36px] my-[120px] ">
+      <div className="grid-2 p-[36px] my-[120px] ">
         <Projects />
         <Articles />
       </div>

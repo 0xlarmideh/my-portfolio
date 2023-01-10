@@ -21,7 +21,7 @@ export const SubHeading = ({ title, className }) => {
 //Small heading component
 export const SmallHeading = ({ title, className }) => {
   return (
-    <div className={`text-xl smallheading  tracking-normal ${className}`}>{title}</div>
+    <div className={`text-xl smallheading ${className}`}>{title}</div>
   );
 };
 
@@ -36,7 +36,7 @@ export const Paragraph = ({ title, className }) => {
 
 // small text
 export const SmallText = ({ title }) => {
-  return <span className="text-sm tracking-tight">{title}</span>;
+  return <span className="text-sm ">{title}</span>;
 };
 
 // Using the components
