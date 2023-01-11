@@ -14,11 +14,11 @@ const Description = () => {
       />
       <Paragraph
         title="An architect in love with tech, delivering top-notch user-centric designs with great meticulousness. "
-        className="w-[65%] text=[14px] leading-[30px] "
+        className="w-[65%] max-sm:w-[100%] text=[14px] leading-[30px] "
       />
       <Paragraph
         title="I have developed some beautiful projects. I am open to FrontEnd Developer Intern and Junior roles. "
-        className="w-[65%] text=[14px] leading-[28px] "
+        className="w-[65%] max-sm:w-[100%] text=[14px] leading-[28px] "
       />
     </div>
   );
