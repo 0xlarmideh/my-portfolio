@@ -35,14 +35,15 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
+.language {
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
 .link-track {
   letter-spacing: 4px;
 }
 
-.language {
-  letter-spacing: 48px;
-  font-size: 56px;
-}
 .in-link:hover {
   border-bottom: 2px solid white;
   color: white;

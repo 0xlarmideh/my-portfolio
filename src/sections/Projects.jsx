@@ -1,6 +1,6 @@
 import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../Components/Typography";
-import {Github, Resume, Twitter, Linkedin} from "../components/Svgs";
+import {Github, Resume, Twitter} from "../components/Svgs";
 
  const projectsData = [
    {
@@ -62,18 +62,18 @@ const Projects= () => {
       <div key={key} className="p-[40px] bg-dark ">
         <SmallHeading
           title={language}
-          className="text-white uppercase text-[12px] font-bold language "
+          className="text-white uppercase  text-[12px] language "
         />
         <SubHeading title={title} className="text-white" />
         <Paragraph title={description} className="mb-[24px] " />
-        <div className="in-links flex gap-[48px] ">
-            <a href={github} className="in-link ">
-              Github
-            </a>
-            <a href={hosted} className="in-link ">
+        <div className="in-links flex gap-[48px] items-center ">
+          <a href={github} className="in-link flex  items-center ">
+            <Github height={24} /> <span>Github</span>
+          </a>
+          <a href={hosted} className="in-link ">
             Demo
           </a>
-          </div>
+        </div>
       </div>
     );
   })
