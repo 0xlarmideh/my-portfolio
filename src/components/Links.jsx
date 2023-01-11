@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import {Paragraph} from "../Components/Typography";
 
+
   const datas = [
     { id: 1, title: "PROJECTS" },
     { id: 2, title: "ARTICLES" },
