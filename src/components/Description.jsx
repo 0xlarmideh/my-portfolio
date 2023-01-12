@@ -6,7 +6,7 @@ const Description = () => {
     <div>
       <Heading
         title="Abdulhameed Busari"
-        className="text-white max-md:text-[45px] text-[64px] mb-6 "
+        className="text-white max-laptop:text-[42px] text-[56px] leading-[60px] mb-6 "
       />
       <SmallHeading
         title="Front-End Developer"
@@ -14,11 +14,11 @@ const Description = () => {
       />
       <Paragraph
         title="An architect in love with tech, delivering top-notch user-centric designs with great meticulousness. "
-        className="w-[65%] max-md:w-[100%] text=[14px] leading-[30px] "
+        className="text=[14px] leading-[30px] "
       />
       <Paragraph
         title="I have developed some beautiful projects. I am open to FrontEnd Developer Intern and Junior roles. "
-        className="w-[65%] max-md:w-[100%] text=[14px] leading-[28px] "
+        className="text=[14px] leading-[28px] "
       />
     </div>
   );
