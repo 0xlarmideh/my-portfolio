@@ -10,7 +10,7 @@ import {Github} from "../components/Svgs";
      description:
        "A website made for my marriage to Maryam Oyeniran. Features a timer, Vlog and appreciation post.",
      github: "https://github.com/0xlarmideh/fola-affairs-repo",
-     hosted: "www.fola.live",
+     hosted: "https://www.fola.live",
    },
    {
      key: 2,
@@ -19,7 +19,7 @@ import {Github} from "../components/Svgs";
      description:
        "A mini portfolio webste that displays all my GitHub repositories",
      github: "https://github.com/0xlarmideh/github-repo-lists-ALtschool",
-     hosted: "0xlarmideh-altschool-exam.vercel.app",
+     hosted: "https://0xlarmideh-altschool-exam.vercel.app",
    },
    {
      key: 3,
@@ -28,7 +28,7 @@ import {Github} from "../components/Svgs";
      description:
        "A mini React calculator that does basic Arithmetic operation.",
      github: "https://github.com/0xlarmideh/React-Calculator---AltSchool",
-     hosted: "react-calculator-urekka.vercel.app",
+     hosted: "https://react-calculator-urekka.vercel.app",
    },
    {
      key: 4,
@@ -67,10 +67,14 @@ const Projects= () => {
         <SubHeading title={title} className="text-white" />
         <Paragraph title={description} className="mb-[24px] " />
         <div className="in-links flex gap-[48px] items-center ">
-          <a href={github} className="in-link flex  items-center ">
+          <a
+            href={github}
+            target="_blank"
+            className="in-link flex  items-center "
+          >
             <Github height={24} /> <span>Github</span>
           </a>
-          <a href={hosted} className="in-link ">
+          <a href={hosted} target="_blank" className="in-link ">
             Demo
           </a>
         </div>
