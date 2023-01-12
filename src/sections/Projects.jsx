@@ -1,5 +1,5 @@
 import React from "react";
-import { SubHeading, Paragraph, SmallHeading } from "/src/Components/Typography.jsx";
+import { SubHeading, Paragraph, SmallHeading } from "../sections/Typography";
 import {Github, Resume, Twitter} from "../components/Svgs";
 
  const projectsData = [
