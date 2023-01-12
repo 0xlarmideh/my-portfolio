@@ -34,11 +34,6 @@ export const Paragraph = ({ title, className }) => {
   );
 };
 
-// small text
-export const SmallText = ({ title }) => {
-  return <span className="text-sm ">{title}</span>;
-};
-
 // Using the components
 //For uniformity, the styling will be done here so you only need to Import the components where you need them
 // Example use: <Heading title="This is a sample heading" />

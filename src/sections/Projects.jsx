@@ -1,6 +1,6 @@
 import React from "react";
-import { SubHeading, Paragraph, SmallHeading } from "../Components/Typography.jsx";
-import {Github, Resume, Twitter} from "../components/Svgs";
+import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
+import {Github} from "../components/Svgs";
 
  const projectsData = [
    {
@@ -78,7 +78,10 @@ const Projects= () => {
     );
   })
   return (
-    <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
+    <div>
+      <div className="section-head">PROJECTS</div>
+      <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
+    </div>
   );
 };
 
