@@ -6,11 +6,11 @@ import Projects from './sections/Projects'
 function App() {
 
   return (
-    <div className="max-sm:block grid grid-cols-2 gap-[50px]">
-      <div className="grid-1 ">
+    <div className="max-md:block grid grid-cols-[1fr,1fr] gap-[50px]">
+      <div className="grid-1 max-md:relative fixed ">
         <Overview />
       </div>
-      <div className="grid-2 p-[36px] my-[60px] mr-[60px] max-sm:m-[0px] ">
+      <div className="grid-2 p-[36px] my-[60px] w-[50%] absolute right-0 mr-[60px] max-laptop:m-[0px] ">
         <Projects />
         <Articles />
       </div>

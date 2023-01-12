@@ -11,6 +11,7 @@ body {
 
 .grid-2 {
   scroll-behavior: smooth;
+  right: 0;
 }
 
 .overview {
@@ -44,8 +45,20 @@ body {
   letter-spacing: 4px;
 }
 
+.in-link{
+  border-bottom: 2px transparent white;
+
+}
+
 .in-link:hover {
   border-bottom: 2px solid white;
   color: white;
   animation: transition 2s all;
+}
+
+.section-head {
+  letter-spacing: 4px;
+  padding: 20px 0;
+  font-weight: bold;
+  color: white;
 }
