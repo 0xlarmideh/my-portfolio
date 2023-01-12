@@ -32,7 +32,7 @@ const Articles = () => {
     );
   })
   return (
-    <div className="py-[96px] ">
+    <div className="py-[96px] " id='articles' >
       <div className='section-head' >ARTICLES</div>
       <div>{ArticlesMapped} </div>
     </div>

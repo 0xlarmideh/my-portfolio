@@ -4,23 +4,24 @@ import {Paragraph} from "../Components/Typography";
 
 
   const datas = [
-    { id: 1, title: "PROJECTS" },
-    { id: 2, title: "ARTICLES" },
-    { id: 3, title: "TECHNOLOGIES" },
+    { id: 1, title: "PROJECTS", secID: "#projects" },
+    { id: 2, title: "ARTICLES", secID: "#articles" },
+    { id: 3, title: "TECHNOLOGIES", secID: "#stack" },
   ];
 
 export default function Links() {
-  const link = datas.map((item) => {
+  const link = datas.map(({id, secID, title}) => {
     return (
       <a
-        key={item.id}
-        href="#"
+        key={id}
+        
+        href={secID}
         className="flex gap-[20px] items-center tracking-widest "
       >
-        <Paragraph title={`0${item.id}`} className="text-[11px] " />
+        <Paragraph title={`0${id}`} className="text-[11px] " />
         <div className="divider h-[1px] border-l-[24px] hover:border-l-[48px] hover:h-[2px] "></div>
         <Paragraph
-          title={`${item.title}`}
+          title={`${title}`}
           className="text-[11px] link-track "
         />
       </a>

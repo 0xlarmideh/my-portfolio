@@ -78,7 +78,7 @@ const Projects= () => {
     );
   })
   return (
-    <div>
+    <div id="projects" >
       <div className="section-head">PROJECTS</div>
       <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
     </div>
