@@ -24,15 +24,16 @@ const Articles = () => {
         <Paragraph title={date} className="mb-[24px] " />
         <SubHeading title={title} className="text-white pb-[24px] " />
         <div className="in-links flex gap-[48px] items-center ">
-          <a href={hosted} className="in-link flex  items-center ">
-            Read More
+          <a href={hosted} className="in-link flex gap-[6px] items-center ">
+            <span>Read More</span>
+            <box-icon type="solid" color="white" name="right-top-arrow-circle"></box-icon>
           </a>
         </div>
       </div>
     );
   })
   return (
-    <div className="py-[96px] " id='articles' >
+    <div className="py-[45px] " id='articles' >
       <div className='section-head' >ARTICLES</div>
       <div>{ArticlesMapped} </div>
     </div>

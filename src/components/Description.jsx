@@ -6,19 +6,19 @@ const Description = () => {
     <div>
       <Heading
         title="Abdulhameed Busari"
-        className="text-white max-laptop:text-[42px] text-[56px] leading-[60px] mb-6 "
+        className="text-white max-laptop:text-[46px] mb-[15px] text-[66px] leading-[56px] head-text"
       />
       <SmallHeading
         title="Front-End Developer"
-        className="text-white text-[27px] mb-[45px] font-semibold tracking-wide "
+        className="text-white mb-[30px] text-[27px] mb-[45px] w-[70%] font-semibold tracking-wide "
       />
       <Paragraph
-        title="An architect in love with tech, delivering top-notch user-centric designs with great meticulousness. "
-        className="text=[14px] leading-[30px] "
+        title="An architect and programmer in love with tech. Delivering top-notch user-centric designs with great meticulousness. "
+        className="text=[14px] leading-[30px] w-[80%] "
       />
       <Paragraph
         title="I have developed some beautiful projects. I am open to FrontEnd Developer Intern and Junior roles. "
-        className="text=[14px] leading-[28px] "
+        className="text=[14px] leading-[28px] w-[80%] "
       />
     </div>
   );
