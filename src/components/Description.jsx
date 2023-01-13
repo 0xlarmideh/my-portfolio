@@ -14,7 +14,7 @@ const Description = () => {
       />
       <Paragraph
         title="An architect and programmer in love with tech. Delivering top-notch user-centric designs with great meticulousness. "
-        className="text=[14px] leading-[30px] w-[80%] max-md:w-[100%] max-md:text-[14px] "
+        className="text=[14px] leading-[22px] w-[80%] max-md:w-[100%] max-md:text-[14px] "
       />
       <Paragraph
         title="I have developed some beautiful projects. I am open to FrontEnd Developer Intern and Junior roles. "

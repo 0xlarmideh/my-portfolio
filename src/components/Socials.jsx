@@ -43,5 +43,9 @@ export default function Socials() {
       </div>
     );
   })
-  return <div className="flex gap-[20px] items-center "><img src={pp} className='w-[80px] ' ></img> {socialsLink} </div>;
+  return (
+    <div className="flex gap-[20px] items-center ">
+      <img src={pp} className="w-[80px] max-md:w-[54px] "></img> {socialsLink}{" "}
+    </div>
+  );
 }
