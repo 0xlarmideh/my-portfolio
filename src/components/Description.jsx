@@ -10,15 +10,15 @@ const Description = () => {
       />
       <SmallHeading
         title="Front-End Developer"
-        className="text-white mb-[30px] text-[27px] mb-[45px] w-[70%] font-semibold tracking-wide "
+        className="text-white mb-[20px] text-[27px] mb-[45px] w-[70%] font-bold tracking-wide "
       />
       <Paragraph
         title="An architect and programmer in love with tech. Delivering top-notch user-centric designs with great meticulousness. "
-        className="text=[14px] leading-[30px] w-[80%] "
+        className="text=[14px] leading-[30px] w-[80%] max-md:w-[100%] max-md:text-[14px] "
       />
       <Paragraph
         title="I have developed some beautiful projects. I am open to FrontEnd Developer Intern and Junior roles. "
-        className="text=[14px] leading-[28px] w-[80%] "
+        className="text=[14px] leading-[22px] w-[80%] max-md:w-[100%] max-md:mb-[20px] max-md:text-[14px] "
       />
     </div>
   );
