@@ -70,12 +70,18 @@ const Projects= () => {
           <a
             href={github}
             target="_blank"
-            className="in-link flex  items-center "
+            className="in-link flex gap-[6px]  items-center "
           >
-            <Github height={24} /> <span>Github</span>
+            <box-icon name="github" color="white" type="logo"></box-icon>{" "}
+            <span>Github</span>
           </a>
-          <a href={hosted} target="_blank" className="in-link ">
-            Demo
+          <a href={hosted} target="_blank" className="in-link flex gap-[6px] ">
+            <span>Demo</span>
+            <box-icon
+              type="solid"
+              color="white"
+              name="right-top-arrow-circle"
+            ></box-icon>
           </a>
         </div>
       </div>
