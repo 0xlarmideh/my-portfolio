@@ -36,16 +36,16 @@ export default function Socials() {
   const socialsLink = datas.map(({id, title, icon, url}) => {
     return (
       <div className="flex gap-[10px] flex-row items-baseline " key={id}>
-        <a href={url} className="flex items-end hover:border-b-[2px] pb-[4px] gap-[6px] " >
-          <div>{title} </div>
+        <a href={url} className="flex items-center hover:border-b-[2px] pb-[4px] gap-[6px] " >
+          <div className='max-md:text-[12px] ' >{title} </div>
           {icon}
         </a>
       </div>
     );
   })
   return (
-    <div className="flex gap-[20px] items-center ">
-      <img src={pp} className="w-[80px] max-md:w-[54px] "></img> {socialsLink}{" "}
+    <div className="flex gap-[14px] items-center ">
+      <img src={pp} className="w-[80px] max-md:w-[45px] "></img> {socialsLink}{" "}
     </div>
   );
 }
