@@ -27,7 +27,7 @@ export default function Links() {
       </a>
     );
   })
-  return <div>{link}</div>;
+  return <div className='links' >{link}</div>;
 }
 
 // const data = [

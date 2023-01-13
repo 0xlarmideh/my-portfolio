@@ -1,5 +1,5 @@
 import React from 'react'
-import { Github, Resume, Twitter, LinkedIn } from "../components/Svgs";
+import pp from '../assets/pp.png'
 
 
 const datas = [
@@ -14,7 +14,7 @@ const datas = [
         className="text-white twitter-logo"
       ></box-icon>
     ),
-    url: "https://twitter.com/0xlarmideh",
+    url: "https://twitter.com/0x_larmideh",
   },
   // { id: 2, title: "LinkedIn", icon: <LinkedIn height={12} />, url: "" },
   {
@@ -43,5 +43,5 @@ export default function Socials() {
       </div>
     );
   })
-  return <div className="flex gap-[40px] items-end ">{socialsLink} </div>;
+  return <div className="flex gap-[20px] items-center "><img src={pp} className='w-[80px] ' ></img> {socialsLink} </div>;
 }
