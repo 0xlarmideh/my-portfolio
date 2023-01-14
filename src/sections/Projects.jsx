@@ -65,7 +65,7 @@ const Projects= () => {
           className="text-white uppercase  text-[12px] language "
         />
         <SubHeading title={title} className="text-white" />
-        <Paragraph title={description} className="mb-[24px] " />
+        <Paragraph title={description} className="text-[19px]  mb-[24px] " />
         <div className="in-links flex gap-[48px] items-center ">
           <a
             href={github}
@@ -75,7 +75,7 @@ const Projects= () => {
             <box-icon name="github" color="white" type="logo"></box-icon>{" "}
             <span>Github</span>
           </a>
-          <a href={hosted} target="_blank" className="in-link flex gap-[6px] ">
+          <a href={hosted} target="_blank" className="paragraph in-link flex gap-[6px] ">
             <span>Demo</span>
             <box-icon
               type="solid"
