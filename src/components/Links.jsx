@@ -27,19 +27,5 @@ export default function Links() {
       </a>
     );
   })
-  return <div className='links' >{link}</div>;
+  return <div className='links py-[30px] ' >{link}</div>;
 }
-
-// const data = [
-//   { id: 01, title: "PROJECTS" },
-//   { id: 02, title: "ARTICLES" },
-// ];
-// const link = data.map((item) => {
-//   return (
-//     <div key={item.id}>
-//       <div>{item.id} </div>
-//       <span className="divider"></span>
-//       <div>{item.title} </div>
-//     </div>
-//   );
-// });
