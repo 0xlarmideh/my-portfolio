@@ -6,7 +6,7 @@ const Description = () => {
     <div>
       <Heading
         title="Abdulhameed Busari"
-        className="text-white max-laptop:text-[53px]  text-7xl max-laptop:leading-[45px] leading-[56px]"
+        className="text-white max-laptop:text-[53px]  text-[66px] max-laptop:leading-[45px] leading-[56px]"
       />
       <Paragraph
         title="Frontend Developer"

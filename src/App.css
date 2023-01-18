@@ -12,9 +12,11 @@ body {
 }
 
 @font-face {
-  font-family: "Kegilka",;  
-  src: local("Kegilka"),
-    url("./src/fonts/Kegilka.otf") format("opentype");
+  font-family: "Kegilka";  
+  src: url("./src/fonts/Kegilka.otf") format("otf");
+  src: url("./src/fonts/Kegilka.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 .grid-2 {
