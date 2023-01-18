@@ -1,6 +1,5 @@
-import React from 'react'
-import pp from '../assets/pp.png'
-
+import React from "react";
+import pp from "../assets/pp.png";
 
 const datas = [
   {
@@ -30,10 +29,9 @@ const datas = [
     url: "https://github.com/0xlarmideh",
   },
 ];
-      
-      
+
 export default function Socials() {
-  const socialsLink = datas.map(({id, title, icon, url}) => {
+  const socialsLink = datas.map(({ id, title, icon, url }) => {
     return (
       <div className="flex gap-[10px] flex-row items-baseline " key={id}>
         <a
@@ -45,10 +43,14 @@ export default function Socials() {
         </a>
       </div>
     );
-  })
+  });
   return (
     <div className="flex gap-[14px] items-center ">
-      <img src={pp} className="w-[54px] border-[2px] border-gray-400 rounded-full max-md:w-[45px] "></img> {socialsLink}
+      <img
+        src={pp}
+        className="w-[54px] border-[2px] border-gray-400 rounded-full max-md:w-[45px] "
+      ></img>{" "}
+      {socialsLink}
     </div>
   );
 }
