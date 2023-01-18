@@ -11,6 +11,12 @@ body {
 
 }
 
+@font-face {
+  font-family: "Kegilka",;  
+  src: local("Kegilka"),
+    url("./src/fonts/Kegilka.otf") format("opentype");
+}
+
 .grid-2 {
   scroll-behavior: smooth;
   right: 0;
@@ -23,7 +29,7 @@ body {
 }
 
 .heading {
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: 'Kegilka', sans-serif;
 }
 
 .smallheading {
@@ -67,10 +73,6 @@ body {
   font-weight: bold;
   font-size: 12px;
   color: white;
-}
-
-.head-text {
-  font-size: 5vw;
 }
 
 @media not all and (min-width: 987px) {

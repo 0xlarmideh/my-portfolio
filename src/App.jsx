@@ -1,12 +1,11 @@
-import './App.css'
-import Articles from './sections/Articles'
-import Overview from './sections/Overview'
-import Projects from './sections/Projects'
-import Stack from './sections/Stack'
-import Footer from './components/Footer'
+import "./App.css";
+import Articles from "./sections/Articles";
+import Overview from "./sections/Overview";
+import Projects from "./sections/Projects";
+import Stack from "./sections/Stack";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <div className="max-md:block ">
       <div className="grid-1 max-md:relative fixed w-[50%] max-md:w-[100%] ">
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

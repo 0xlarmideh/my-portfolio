@@ -1,6 +1,5 @@
-import React from 'react'
+import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
-
 
 const data = [
   {
@@ -14,31 +13,34 @@ const data = [
   },
 ];
 const Articles = () => {
-  const ArticlesMapped = data.map(({title, key, medium, date, hosted}) => {
+  const ArticlesMapped = data.map(({ title, key, medium, date, hosted }) => {
     return (
       <div key={key} className="p-[40px] bg-dark ">
         <SmallHeading
           title={medium}
-          className="text-white uppercase  text-[12px] language "
+          className="text-white uppercase text-[12px] language "
         />
-        <Paragraph title={date} className="mb-[24px] " />
+        <Paragraph title={date} className="mb-[24px]" />
         <SubHeading title={title} className="text-white pb-[24px] " />
         <div className="in-links flex gap-[48px] items-center ">
           <a href={hosted} className="in-link flex gap-[6px] items-center ">
             <span>Read More</span>
-            <box-icon type="solid" color="white" name="right-top-arrow-circle"></box-icon>
+            <box-icon
+              type="solid"
+              color="white"
+              name="right-top-arrow-circle"
+            ></box-icon>
           </a>
         </div>
       </div>
     );
-  })
+  });
   return (
-    <div className="py-[45px] " id='articles' >
-      <div className='section-head' >ARTICLES</div>
+    <div className="py-[45px] " id="articles">
+      <div className="section-head">ARTICLES</div>
       <div>{ArticlesMapped} </div>
     </div>
-  )
-  
-}
+  );
+};
 
-export default Articles
+export default Articles;

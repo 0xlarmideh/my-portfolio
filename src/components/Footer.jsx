@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='text-center text-[13px] mt-[90px] '>
       <div  >
-        Inspired by <a href="http://sarahdayan.dev" className='text-white underline' >Sarah Dayan's Website</a>
+        Inspired by <span className='text-white underline' >Sarah Dayan's Website</span>
       </div>
       <div>Developed by 0xlarmideh</div>
     </div>
