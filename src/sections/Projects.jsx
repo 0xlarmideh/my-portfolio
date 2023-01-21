@@ -1,6 +1,6 @@
 import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
-import { Github } from "../components/Svgs";
+
 
 const projectsData = [
   {
@@ -57,10 +57,16 @@ const projectsData = [
   },
 ];
 const Projects = () => {
+
   const projectsMapped = projectsData.map(
     ({ key, title, language, description, github, hosted }) => {
       return (
-        <div key={key} className="p-[40px] bg-dark ">
+        <div
+          key={key}
+          className="p-[40px] bg-dark "
+          data-aos={key % 2 === 0 ? "zoom-in-right" : "zoom-in-left"}
+          data-aos-easing="ease-in-sine"
+        >
           <SmallHeading
             title={language}
             className="text-white uppercase  text-[12px] language "
@@ -71,9 +77,9 @@ const Projects = () => {
             <a
               href={github}
               target="_blank"
-              className="in-link flex gap-[6px]  items-center "
+              className="in-link flex gap-[6px]  items-center  "
             >
-              <box-icon name="github" color="white" type="logo"></box-icon>{" "}
+              <box-icon name="github" color="white" type="logo"></box-icon>
               <span>Github</span>
             </a>
             <a
@@ -94,7 +100,7 @@ const Projects = () => {
     }
   );
   return (
-    <div id="projects">
+    <div id="projects" data-aos='zoom-out'>
       <div className="section-head">PROJECTS</div>
       <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
     </div>

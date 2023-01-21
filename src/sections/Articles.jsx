@@ -1,6 +1,7 @@
 import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 
+
 const data = [
   {
     key: 1,
@@ -13,9 +14,15 @@ const data = [
   },
 ];
 const Articles = () => {
+  
   const ArticlesMapped = data.map(({ title, key, medium, date, hosted }) => {
     return (
-      <div key={key} className="p-[40px] bg-dark ">
+      <div
+        key={key}
+        className="p-[40px] bg-dark "
+        data-aos={key % 2 === 0 ? "zoom-in-right" : "zoom-in-left"}
+        data-aos-easing="ease-in-sine"
+      >
         <SmallHeading
           title={medium}
           className="text-white uppercase text-[12px] language "
@@ -36,7 +43,7 @@ const Articles = () => {
     );
   });
   return (
-    <div className="py-[45px] " id="articles">
+    <div className="py-[45px] " id="articles" data-aos="zoom-out">
       <div className="section-head">ARTICLES</div>
       <div>{ArticlesMapped} </div>
     </div>
