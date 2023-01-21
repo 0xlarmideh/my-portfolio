@@ -36,20 +36,20 @@ export default function Socials() {
       <div className="flex gap-[10px] flex-row items-baseline " key={id}>
         <a
           href={url}
-          className="flex items-center border-b-[2px] border-transparent hover:border-white pb-[4px] gap-[6px] "
+          className="flex items-center hover:text-white hover:underline pb-[4px] gap-[6px] "
         >
-          <div className="max-md:text-[12px] ">{title} </div>
+          <div className="max-md:text-[16px] ">{title} </div>
           {icon}
         </a>
       </div>
     );
   });
   return (
-    <div className="flex gap-[14px] items-center ">
+    <div className="flex gap-[14px] items-center  ">
       <img
         src={pp}
-        className="w-[54px] border-[2px] border-gray-400 rounded-full max-md:w-[45px] "
-      ></img>{" "}
+        className="w-[54px] border-[2px] border-gray-400 rounded-full max-md:w-[45px] image "
+      ></img>
       {socialsLink}
     </div>
   );

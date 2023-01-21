@@ -4,8 +4,13 @@ import Overview from "./sections/Overview";
 import Projects from "./sections/Projects";
 import Stack from "./sections/Stack";
 import Footer from "./components/Footer";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1300, startEvent: "DOMContentLoaded" });
+  }, []);
   return (
     <div className="max-md:block ">
       <div className="grid-1 max-md:relative fixed w-[50%] max-md:w-[100%] ">
