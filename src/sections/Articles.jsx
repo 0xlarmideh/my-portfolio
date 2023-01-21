@@ -43,7 +43,11 @@ const Articles = () => {
     );
   });
   return (
-    <div className="py-[45px] " id="articles" data-aos="zoom-out">
+    <div
+      className="py-[45px] "
+      id="articles"
+      data-aos="zoom-out"
+    >
       <div className="section-head">ARTICLES</div>
       <div>{ArticlesMapped} </div>
     </div>

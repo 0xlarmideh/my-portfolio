@@ -100,7 +100,7 @@ const Projects = () => {
     }
   );
   return (
-    <div id="projects" data-aos='zoom-out'>
+    <div id="projects" data-aos="zoom-out" >
       <div className="section-head">PROJECTS</div>
       <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
     </div>

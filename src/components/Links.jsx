@@ -19,10 +19,10 @@ export default function Links() {
         className="flex gap-[20px] items-center tracking-widest "
       >
         <Paragraph title={`0${id}`} className="text-[11px] " />
-        <div className="divider h-[1px] border-l-[24px] hover:border-l-[48px] hover:h-[2px] "></div>
+        
         <Paragraph
           title={`${title}`}
-          className="text-[11px] link-track "
+          className="text-[11px] link-track border-b-[2px] border-transparent hover:border-white hover:text-white "
         />
       </a>
     );

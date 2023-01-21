@@ -7,9 +7,7 @@ const Description = () => {
   return (
     <div>
       <div
-        data-aos="fade-left"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="1000"
+        
       >
         <Heading
           title="Abdulhameed Busari"
@@ -23,8 +21,6 @@ const Description = () => {
           title="EMAIL: BUSARIOYEWOLE@GMAIL.COM"
           className="mb-[20px] text-[15px] mb-[35px]  uppercase"
         />
-      </div>
-      <div data-aos="fade-right" data-aos-duration="1000">
         <Paragraph
           title="I am an experienced professional with a background in architecture and a passion for frontend development. I pride myself on my strong attention to detail and ability to create visually appealing and intuitive designs. "
           className="text-[20px] leading-[27px] max-md:leading-[24px]  w-[100%] max-md:w-[90%] mb-[10px] max-md:mb-[20px] "
