@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: 2px solid red;
 }
 
 body {
@@ -13,8 +14,7 @@ body {
 
 @font-face {
   font-family: "Kegilka";  
-  src: url("./src/fonts/Kegilka.otf") format("otf");
-  src: url("./src/fonts/Kegilka.woff") format("woff");
+  src: url("./src/fonts/Kegilka.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .heading {
-  font-family: 'Kegilka', sans-serif;
+  font-family: 'Kegilka', 'Clash Grotesk', sans-serif;
 }
 
 .smallheading {
@@ -66,7 +66,6 @@ body {
 .in-link:hover {
   border-bottom: 2px solid white;
   color: white;
-  animation: transition 2s all;
 }
 
 .section-head {
