@@ -2,7 +2,7 @@ import React from "react";
 
 const Stack = () => {
   return (
-    <div id="stack" data-aos="zoom-out">
+    <div id="stack" data-aos="zoom-out" >
       <div className="section-head">STACK</div>
       <div className="grid grid-cols-[1fr,1fr,1fr] gap-y-[15px] ">
         <div className="flex flex-col justify-center items-center">
