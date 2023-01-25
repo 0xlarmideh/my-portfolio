@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1300, startEvent: "DOMContentLoaded", offset: 0 });
+    AOS.init({ duration: 1300, startEvent: "DOMContentLoaded", offset: 0, once: true });
   }, []);
   return (
     <div className="max-md:block ">

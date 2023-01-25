@@ -12,17 +12,17 @@ const projectsData = [
     github: "https://github.com/0xlarmideh/fola-affairs-repo",
     hosted: "https://www.fola.live",
   },
+  // {
+  //   key: 2,
+  //   title: "Mini GitHub-Repo Website",
+  //   language: "React",
+  //   description:
+  //     "A mini portfolio website that displays all my GitHub repositories",
+  //   github: "https://github.com/0xlarmideh/github-repo-lists-ALtschool",
+  //   hosted: "https://0xlarmideh-altschool-exam.vercel.app",
+  // },
   {
     key: 2,
-    title: "Mini GitHub-Repo Website",
-    language: "React",
-    description:
-      "A mini portfolio website that displays all my GitHub repositories",
-    github: "https://github.com/0xlarmideh/github-repo-lists-ALtschool",
-    hosted: "https://0xlarmideh-altschool-exam.vercel.app",
-  },
-  {
-    key: 3,
     title: "Mini Calculator",
     language: "React",
     description:
@@ -31,7 +31,7 @@ const projectsData = [
     hosted: "https://react-calculator-urekka.vercel.app",
   },
   {
-    key: 4,
+    key: 3,
     title: "Redactr",
     language: "JavaScript",
     description: "App helps to redact specified words in a text.",
@@ -39,7 +39,7 @@ const projectsData = [
     hosted: "https://super-circle-redactr.vercel.app/",
   },
   {
-    key: 5,
+    key: 4,
     title: "Phone Number Checker",
     language: "JavaScript",
     description:
@@ -48,7 +48,7 @@ const projectsData = [
     hosted: "https://super-circle-phoenie-ten.vercel.app/",
   },
   {
-    key: 6,
+    key: 5,
     title: "Travel Journal",
     language: "React",
     description: "Simple static app that shows different travel places.",
