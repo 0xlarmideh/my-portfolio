@@ -67,6 +67,13 @@ body {
   animation: animate 1.4s infinite;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 @keyframes animate {
   0%, 40%, 100%{
     transform: scale(1);
