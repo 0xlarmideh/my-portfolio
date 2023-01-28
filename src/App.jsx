@@ -6,12 +6,29 @@ import Stack from "./sections/Stack";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import HashLoader from "react-spinners/HashLoader";
+
 function App() {
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
-    AOS.init({ duration: 1300, startEvent: "DOMContentLoaded", offset: 0, once: true });
+    AOS.init({ duration: 1000, startEvent: "DOMContentLoaded", offset: 0, once: true });
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 4000);
   }, []);
-  return (
+  return loading ? (
+    <div className="loading">
+      <HashLoader
+        color="ffffff"
+        loading={loading}
+        size={40}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+    </div>
+  ) : (
     <div className="max-md:block ">
       <div className="grid-1 max-md:relative fixed w-[50%] max-md:w-[100%] ">
         <Overview />
