@@ -30,8 +30,12 @@ const Articles = () => {
         <Paragraph title={date} className="mb-[24px]" />
         <SubHeading title={title} className="text-white pb-[24px] " />
         <div className="in-links flex gap-[48px] items-center ">
-          <a href={hosted} className="in-link flex gap-[6px] items-center ">
-            <span>Read More</span>
+          <a
+            href={hosted}
+            target="_blank"
+            className="in-link flex gap-[6px] items-center "
+          >
+            <span>Read Article</span>
             <box-icon
               type="solid"
               color="white"
