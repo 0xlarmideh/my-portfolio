@@ -8,11 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import HashLoader from "react-spinners/HashLoader";
-import { PacmanLoader } from "react-spinners";
-import GridLoader from "react-spinners/GridLoader";
-import ClipLoader from "react-spinners/ClipLoader";
-import PuffLoader from "react-spinners/PuffLoader";
-import ClockLoader from "react-spinners/ClockLoader";
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -26,14 +21,13 @@ function App() {
 
   return loading ? (
     <div className="loading text-white">
-      <ClockLoader
+      <HashLoader
         color="ffffff"
         loading={loading}
         size={50}
         // aria-label="Loading Spinner"
         // data-testid="loader"
       />
-      <PuffLoader color="ffffff" loading={loading} />
     </div>
   ) : (
     <div className="max-md:block ">
