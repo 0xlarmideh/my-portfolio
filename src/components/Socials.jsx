@@ -20,7 +20,7 @@ const datas = [
     id: 3,
     title: "Resume",
     icon: <box-icon name="cloud-download" color="white"></box-icon>,
-    url: "",
+    url: "https://drive.google.com/file/d/1f1Jumj2uml5AQ5hKJUzs1beU1m698BMQ/view?usp=share_link",
   },
   {
     id: 4,
@@ -48,6 +48,7 @@ export default function Socials() {
     <div className="flex gap-[14px] items-center  ">
       <img
         src={pp}
+        alt="picture"
         className="w-[54px] border-[2px] border-gray-400 rounded-full max-md:w-[45px] image "
       ></img>
       {socialsLink}
