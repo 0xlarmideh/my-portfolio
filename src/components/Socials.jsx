@@ -49,7 +49,7 @@ export default function Socials() {
       <img
         src={pp}
         alt="picture"
-        className="w-[10%] border-[2px] border-gray-400 rounded-full max-md:w-[45px] image "
+        className=" border-[2px] border-gray-400 rounded-full max-md:w-[45px] image "
       ></img>
       {socialsLink}
     </div>

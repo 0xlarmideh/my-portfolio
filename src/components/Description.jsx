@@ -6,9 +6,7 @@ const Description = () => {
 
   return (
     <div>
-      <div
-        
-      >
+      <div>
         <Heading
           title="Abdulhameed Busari"
           className="text-white max-laptop:text-[48px]  text-[52px] max-laptop:leading-[45px] leading-[56px] mb-[30px] "
@@ -17,10 +15,13 @@ const Description = () => {
           title="Frontend Developer"
           className="text-white text-[15px] leading-[0px]  uppercase"
         />
-        <Paragraph
-          title="EMAIL: BUSARIOYEWOLE@GMAIL.COM"
-          className="mb-[20px] text-[15px] mb-[35px]  uppercase"
-        />
+        <a href="mailto:Welcome@to.ua" className="hover:text-white " >
+          <Paragraph
+            title="EMAIL: BUSARIOYEWOLE@GMAIL.COM"
+            className="mb-[20px] text-[15px] mb-[35px]  uppercase"
+          />
+        </a>
+
         <Paragraph
           title="I am an experienced professional with a background in architecture and a passion for frontend development. I pride myself on my strong attention to detail and ability to create visually appealing and intuitive designs. "
           className="text-[20px] leading-[27px] max-md:leading-[24px]  w-[100%] mb-[10px] max-md:mb-[20px] "
