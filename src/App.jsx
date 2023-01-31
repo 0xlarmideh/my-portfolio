@@ -16,7 +16,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 4000);
+    }, 1500);
   }, []);
 
   return loading ? (
@@ -25,8 +25,8 @@ function App() {
         color="ffffff"
         loading={loading}
         size={50}
-        // aria-label="Loading Spinner"
-        // data-testid="loader"
+        aria-label="Loading Spinner"
+        data-testid="loader"
       />
     </div>
   ) : (

@@ -74,6 +74,11 @@ body {
   height: 100vh;
 }
 
+.bx {
+  color: white;
+  font-size: 66px;
+}
+
 @keyframes animate {
   0%, 40%, 100%{
     transform: scale(1);
