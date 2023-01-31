@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
-import HashLoader from "react-spinners/HashLoader";
+// import HashLoader from "react-spinners/HashLoader";
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -16,17 +16,21 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 4000);
+    }, 3000);
   }, []);
+
   return loading ? (
-    <div className="loading">
-      <HashLoader
-        color="ffffff"
-        loading={loading}
-        size={40}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
+    <div className="loading text-white">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   ) : (
     <div className="max-md:block ">
