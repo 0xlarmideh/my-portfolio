@@ -10,7 +10,8 @@ import { useEffect, useState } from "react";
 // import HashLoader from "react-spinners/HashLoader";
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
+  
   useEffect(() => {
     AOS.init({ duration: 1000, startEvent: "DOMContentLoaded", offset: 0, once: true });
     setLoading(true)
@@ -21,7 +22,7 @@ function App() {
 
   return loading ? (
     <div className="loading text-white">
-      <div class="lds-roller">
+      <div className="lds-roller">
         <div></div>
         <div></div>
         <div></div>
