@@ -5,13 +5,13 @@ import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 const projectsData = [
   {
     key: 1,
-    title: "FOLA Affairs",
+    title: "Urekka Web App",
     language: "React",
-    description:
-      "A website made for my marriage to Maryam Oyeniran. Features a timer, Vlog and appreciation post.",
-    github: "https://github.com/0xlarmideh/fola-affairs-repo",
-    hosted: "https://www.fola.live",
+    description: "Web App for an Educational Consulting Firm",
+    github: "https://github.com/0xlarmideh/React-Travel-Journal",
+    hosted: "https://urekka.vercel.app/",
   },
+
   // {
   //   key: 2,
   //   title: "Mini GitHub-Repo Website",
@@ -21,8 +21,26 @@ const projectsData = [
   //   github: "https://github.com/0xlarmideh/github-repo-lists-ALtschool",
   //   hosted: "https://0xlarmideh-altschool-exam.vercel.app",
   // },
+
   {
     key: 2,
+    title: "Redactr",
+    language: "JavaScript",
+    description: "App helps to redact specified words in a text.",
+    github: "https://github.com/0xlarmideh/super-circle-redactr",
+    hosted: "https://super-circle-redactr.vercel.app/",
+  },
+  {
+    key: 3,
+    title: "FOLA Affairs",
+    language: "React",
+    description:
+      "A website made for my marriage to Maryam Oyeniran. Features a timer, Vlog and appreciation post.",
+    github: "https://github.com/0xlarmideh/fola-affairs-repo",
+    hosted: "https://www.fola.live",
+  },
+  {
+    key: 4,
     title: "Mini Calculator",
     language: "React",
     description:
@@ -31,29 +49,13 @@ const projectsData = [
     hosted: "https://react-calculator-urekka.vercel.app",
   },
   {
-    key: 3,
-    title: "Redactr",
-    language: "JavaScript",
-    description: "App helps to redact specified words in a text.",
-    github: "https://github.com/0xlarmideh/super-circle-redactr",
-    hosted: "https://super-circle-redactr.vercel.app/",
-  },
-  {
-    key: 4,
+    key: 5,
     title: "Phone Number Checker",
     language: "JavaScript",
     description:
       "App helps to verify service operator of a (Nigerian) number irrespective of the format with validation.",
     github: "https://github.com/0xlarmideh/superCircle-phoenie",
     hosted: "https://super-circle-phoenie-ten.vercel.app/",
-  },
-  {
-    key: 5,
-    title: "Travel Journal",
-    language: "React",
-    description: "Simple static app that shows different travel places.",
-    github: "https://github.com/0xlarmideh/React-Travel-Journal",
-    hosted: "https://larmideh-travel-journal.vercel.app/",
   },
 ];
 const Projects = () => {
@@ -77,9 +79,8 @@ const Projects = () => {
             <a
               href={github}
               target="_blank"
-              className="in-link flex gap-[6px]  items-center  "
+              className="in-link flex gap-[6px]  items-baseline  "
             >
-              <box-icon name="github" color="white" type="logo"></box-icon>
               <span>Github</span>
             </a>
             <a
@@ -88,11 +89,6 @@ const Projects = () => {
               className="paragraph in-link flex gap-[6px] "
             >
               <span>Demo</span>
-              <box-icon
-                type="solid"
-                color="white"
-                name="right-top-arrow-circle"
-              ></box-icon>
             </a>
           </div>
         </div>
