@@ -11,17 +11,6 @@ const projectsData = [
     github: "https://github.com/0xlarmideh/React-Travel-Journal",
     hosted: "https://urekka.vercel.app/",
   },
-
-  // {
-  //   key: 2,
-  //   title: "Mini GitHub-Repo Website",
-  //   language: "React",
-  //   description:
-  //     "A mini portfolio website that displays all my GitHub repositories",
-  //   github: "https://github.com/0xlarmideh/github-repo-lists-ALtschool",
-  //   hosted: "https://0xlarmideh-altschool-exam.vercel.app",
-  // },
-
   {
     key: 2,
     title: "Redactr",
@@ -79,8 +68,9 @@ const Projects = () => {
             <a
               href={github}
               target="_blank"
-              className="in-link flex gap-[6px]  items-baseline  "
+              className="in-link flex gap-[6px]  items-center  "
             >
+              <box-icon name="github" color="white" type="logo"></box-icon>
               <span>Github</span>
             </a>
             <a
@@ -89,6 +79,11 @@ const Projects = () => {
               className="paragraph in-link flex gap-[6px] "
             >
               <span>Demo</span>
+              <box-icon
+                type="solid"
+                color="white"
+                name="right-top-arrow-circle"
+              ></box-icon>
             </a>
           </div>
         </div>
@@ -98,7 +93,7 @@ const Projects = () => {
   return (
     <div id="projects" data-aos="zoom-out" >
       <div className="section-head">PROJECTS</div>
-      <div className="projects flex flex-col gap-[20px] ">{projectsMapped}</div>
+      <div className="projects flex flex-col gap-[20px]">{projectsMapped}</div>
     </div>
   );
 };

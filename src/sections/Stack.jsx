@@ -39,7 +39,7 @@ const Stack = () => {
           <i className="bx bxl-typescript"></i>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <span>MATERIAL UI</span>
+          <span>MUI</span>
           <SiMaterialui size={66} color='white' />
         </div>
         <div className="flex flex-col justify-center items-center">
