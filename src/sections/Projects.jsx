@@ -8,7 +8,7 @@ const projectsData = [
     title: "Urekka Web App",
     language: "React",
     description: "Web App for an Educational Consulting Firm",
-    github: "https://github.com/0xlarmideh/React-Travel-Journal",
+    github: "https://github.com/Urekka/urekka",
     hosted: "https://urekka.vercel.app/",
   },
   {
