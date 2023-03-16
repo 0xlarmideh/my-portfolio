@@ -5,6 +5,15 @@ import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 const projectsData = [
   {
     key: 1,
+    title: "Invoicing App (V1)",
+    language: "React",
+    description:
+      "This app generates invoice from supplied information at a tap",
+    github: "https://github.com/0xlarmideh/invoice-generator",
+    hosted: "invoice-generator-0xlarmideh.vercel.app",
+  },
+  {
+    key: 2,
     title: "Urekka Web App",
     language: "React",
     description: "Web App for an Educational Consulting Firm",
@@ -12,7 +21,7 @@ const projectsData = [
     hosted: "https://urekka.vercel.app/",
   },
   {
-    key: 2,
+    key: 3,
     title: "Redactr",
     language: "JavaScript",
     description: "App helps to redact specified words in a text.",
@@ -20,7 +29,7 @@ const projectsData = [
     hosted: "https://super-circle-redactr.vercel.app/",
   },
   {
-    key: 3,
+    key: 4,
     title: "FOLA Affairs",
     language: "React",
     description:
@@ -29,7 +38,7 @@ const projectsData = [
     hosted: "https://www.fola.live",
   },
   {
-    key: 4,
+    key: 5,
     title: "Mini Calculator",
     language: "React",
     description:
@@ -38,7 +47,7 @@ const projectsData = [
     hosted: "https://react-calculator-urekka.vercel.app",
   },
   {
-    key: 5,
+    key: 6,
     title: "Phone Number Checker",
     language: "JavaScript",
     description:
