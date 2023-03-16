@@ -10,7 +10,7 @@ const projectsData = [
     description:
       "This app generates invoice from supplied information at a tap",
     github: "https://github.com/0xlarmideh/invoice-generator",
-    hosted: "invoice-generator-0xlarmideh.vercel.app",
+    hosted: "https://invoice-generator-0xlarmideh.vercel.app",
   },
   {
     key: 2,
