@@ -20,7 +20,7 @@ const datas = [
     id: 3,
     title: "Resume",
     icon: <box-icon name="cloud-download" color="white"></box-icon>,
-    url: "https://drive.google.com/file/d/1f1Jumj2uml5AQ5hKJUzs1beU1m698BMQ/view?usp=share_link",
+    url: "https://drive.google.com/file/d/1DSxj2tkfbT-tJAFLbHT3U6q03Av6g0dl/view?usp=share_link",
   },
   {
     id: 4,
