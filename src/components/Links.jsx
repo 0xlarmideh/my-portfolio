@@ -1,6 +1,6 @@
 import React from 'react'
 // import { NavLink } from 'react-router-dom';
-import {Paragraph} from "../Components/Typography";
+import {Paragraph} from "../components/Typography";
 
 
   const datas = [
