@@ -4,23 +4,22 @@ import pp from "../assets/pp.png";
 const datas = [
   {
     id: 1,
-    title: "Twitter",
+    title: "LinkedIn",
     icon: (
       <box-icon
-        name="twitter"
+        name="linkedin"
         color="white"
         type="logo"
-        className="text-white twitter-logo"
       ></box-icon>
     ),
-    url: "https://twitter.com/0x_larmideh",
+    url: "https://linkedin.com/in/larmideh",
   },
   // { id: 2, title: "LinkedIn", icon: <LinkedIn height={12} />, url: "" },
   {
     id: 3,
     title: "Resume",
     icon: <box-icon name="cloud-download" color="white"></box-icon>,
-    url: "https://drive.google.com/file/d/1DSxj2tkfbT-tJAFLbHT3U6q03Av6g0dl/view?usp=share_link",
+    url: "https://drive.google.com/file/d/1C8PMolvE1MuIXSpCK2byKcQXvQtGd9yJ/view?usp=sharing",
   },
   {
     id: 4,

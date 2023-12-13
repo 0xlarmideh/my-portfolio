@@ -22,7 +22,7 @@ export default function Links() {
         
         <Paragraph
           title={`${title}`}
-          className="text-[11px] link-track border-b-[2px] border-transparent hover:border-white hover:text-white "
+          className="text-[14px] link-track border-b-[2px] border-transparent hover:border-white hover:text-white "
         />
       </a>
     );
