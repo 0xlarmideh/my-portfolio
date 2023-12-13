@@ -24,6 +24,9 @@ module.exports = {
         text_grey: "#737374",
         highlight: "#DEDEDE",
       },
+      fontFamily: {
+        'monument': ['Monument Extended Bold']
+      },
     },
   },
   plugins: [],

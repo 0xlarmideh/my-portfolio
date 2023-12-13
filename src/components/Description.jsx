@@ -9,7 +9,7 @@ const Description = () => {
       <div>
         <Heading
           title="Abdulhameed Busari"
-          className="text-white max-laptop:text-[48px]  text-[52px] max-laptop:leading-[45px] leading-[56px] mb-[30px] "
+          className="text-white font-monument max-laptop:text-[4.8vw]  text-[2.5vw] max-laptop:leading-[45px] leading-[100%] mb-[30px] "
         />
         <Paragraph
           title="Frontend Developer"
