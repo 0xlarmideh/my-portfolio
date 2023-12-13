@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import Loading from "./components/LoadingLogo";
 // import HashLoader from "react-spinners/HashLoader";
 
 function App() {
@@ -21,18 +22,7 @@ function App() {
   }, []);
 
   return loading ? (
-    <div className="loading text-white">
-      <div className="lds-roller">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+    <Loading />
   ) : (
     <div className="max-md:block ">
       <div className="grid-1 max-md:relative fixed w-[50%] max-md:w-[100%] ">
