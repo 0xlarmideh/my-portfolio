@@ -5,21 +5,14 @@ const datas = [
   {
     id: 1,
     title: "LinkedIn",
-    icon: (
-      <box-icon
-        name="linkedin"
-        color="white"
-        type="logo"
-      ></box-icon>
-    ),
+    icon: <box-icon name="linkedin" color="white" type="logo"></box-icon>,
     url: "https://linkedin.com/in/larmideh",
   },
-  // { id: 2, title: "LinkedIn", icon: <LinkedIn height={12} />, url: "" },
   {
     id: 3,
     title: "Resume",
     icon: <box-icon name="cloud-download" color="white"></box-icon>,
-    url: "https://drive.google.com/file/d/1C8PMolvE1MuIXSpCK2byKcQXvQtGd9yJ/view?usp=sharing",
+    url: "https://dub.sh/IDw51hp",
   },
   {
     id: 4,
@@ -35,6 +28,7 @@ export default function Socials() {
       <div className="flex gap-[10px] flex-row items-baseline " key={id}>
         <a
           href={url}
+          target="_blank"
           className="flex items-center hover:text-white hover:underline pb-[4px] gap-[6px] "
         >
           <div className="max-md:text-[16px] ">{title} </div>

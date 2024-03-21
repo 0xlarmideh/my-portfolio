@@ -1,5 +1,6 @@
 import React from "react";
-import { SiMaterialui } from "react-icons/si";
+import { SiExpress, SiMaterialui } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
 
 const Stack = () => {
   return (
@@ -39,20 +40,20 @@ const Stack = () => {
           <i className="bx bxl-typescript"></i>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <span>MUI</span>
-          <SiMaterialui size={66} color='white' />
+          <span>NODEJS</span>
+          <i class="bx bxl-nodejs"></i>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <span>WORDPRESS</span>
-          <i className="bx bxl-wordpress"></i>
+          <span>EXPRESSJS</span>
+          <SiExpress size={66} color="white" />
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <span>MONGODB</span>
+          <DiMongodb size={66} color="white" />
         </div>
         <div className="flex flex-col justify-center items-center">
           <span>GIT</span>
           <i className="bx bxl-git"></i>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <span>GITHUB</span>
-          <i className="bx bxl-github"></i>
         </div>
       </div>
     </div>

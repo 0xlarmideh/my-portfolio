@@ -1,7 +1,6 @@
 import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 
-
 const projectsData = [
   {
     key: 1,
@@ -15,13 +14,12 @@ const projectsData = [
     key: 2,
     title: "DcFoods",
     language: "NextJs",
-    description:
-      "An ecommerce application involved in selling foodstuff items",
+    description: "An ecommerce application involved in selling foodstuff items",
     hosted: "https://dcfoodbank.com",
   },
   {
     key: 3,
-    title: "Invoicing App (V1.5",
+    title: "Invoicing App",
     language: "React",
     description:
       "This app generates invoice from supplied information at a tap",
@@ -38,7 +36,6 @@ const projectsData = [
   },
 ];
 const Projects = () => {
-
   const projectsMapped = projectsData.map(
     ({ key, title, language, description, github, hosted }) => {
       return (
@@ -55,14 +52,16 @@ const Projects = () => {
           <SubHeading title={title} className="text-white" />
           <Paragraph title={description} className="text-[19px]  mb-[24px] " />
           <div className="in-links flex gap-[48px] items-center ">
-            {github && <a
-              href={github}
-              target="_blank"
-              className="in-link flex gap-[6px]  items-center  "
-            >
-              <box-icon name="github" color="white" type="logo"></box-icon>
-              <span>Github</span>
-            </a>}
+            {github && (
+              <a
+                href={github}
+                target="_blank"
+                className="in-link flex gap-[6px]  items-center  "
+              >
+                <box-icon name="github" color="white" type="logo"></box-icon>
+                <span>Github</span>
+              </a>
+            )}
             <a
               href={hosted}
               target="_blank"
@@ -81,7 +80,7 @@ const Projects = () => {
     }
   );
   return (
-    <div id="projects" data-aos="zoom-out" >
+    <div id="projects" data-aos="zoom-out">
       <div className="section-head">PROJECTS</div>
       <div className="projects flex flex-col gap-[20px]">{projectsMapped}</div>
     </div>
