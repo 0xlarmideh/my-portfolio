@@ -12,13 +12,20 @@ const projectsData = [
   },
   {
     key: 2,
-    title: "DcFoods",
-    language: "NextJs",
-    description: "An ecommerce application involved in selling foodstuff items",
-    hosted: "https://dcfoodbank.com",
+    title: "Fleri Admin",
+    language: "ReactJs, Typescript",
+    description: "Admin platform to manage tasks happening on the platform.",
+    hosted: "https://www.loom.com/share/91fab83bd0b24621a520a3839d6b4411",
   },
   {
     key: 3,
+    title: "Genesix Studio Website",
+    language: "NextJs, Typescript",
+    description: "Website for design studio",
+    hosted: "https://genesixstudiowebsite.vercel.app/",
+  },
+  {
+    key: 4,
     title: "Invoicing App",
     language: "React",
     description:
@@ -27,7 +34,7 @@ const projectsData = [
     hosted: "https://invoice-generator-0xlarmideh.vercel.app",
   },
   {
-    key: 4,
+    key: 5,
     title: "Urekka Web App",
     language: "React",
     description: "Web App for an Educational Consulting Firm",
