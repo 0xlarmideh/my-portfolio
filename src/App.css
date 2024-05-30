@@ -20,22 +20,12 @@ body {
   height: 100dvh;
 }
 
-.heading {
-  font-family: "Melvick", sans-serif;
-}
-
-.smallheading {
-  font-family: "Helvetica", sans-serif;
-}
-
 .subheading,
 .header-btn {
-  font-family: "Helvetica", sans-serif;
   letter-spacing: -1px;
 }
 
 .paragraph {
-  font-family: "Helvetica", sans-serif;
   letter-spacing: -0.8px;
 }
 
