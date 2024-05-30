@@ -27,7 +27,7 @@ const projectsData = [
   {
     key: 4,
     title: "Invoicing App",
-    language: "React",
+    language: "ReactJs",
     description:
       "This app generates invoice from supplied information at a tap",
     github: "https://github.com/0xlarmideh/invoice-generator",
@@ -36,7 +36,7 @@ const projectsData = [
   {
     key: 5,
     title: "Urekka Web App",
-    language: "React",
+    language: "ReactJs",
     description: "Web App for an Educational Consulting Firm",
     github: "https://github.com/Urekka/urekka",
     hosted: "https://urekka.vercel.app/",
