@@ -4,11 +4,11 @@ import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 const projectsData = [
   {
     key: 1,
-    title: "Fleri Client Application",
-    language: "NextJs, TypeScript",
+    title: "Rain App by Yahshud",
+    language: "ReactJs, TypeScript",
     description:
-      "This app is an health-tech app to help Africans in diaspora cater for loved ones at home",
-    hosted: "https://joinfleri.com",
+      "RAIN provides a secure and Shariah-compliant investment platform for individuals seeking exposure to real estate assets.",
+    hosted: "https://app.raininvestor.com",
   },
   {
     key: 2,
@@ -24,23 +24,23 @@ const projectsData = [
     description: "Website for design studio",
     hosted: "https://genesixstudiowebsite.vercel.app/",
   },
-  {
-    key: 4,
-    title: "Invoicing App",
-    language: "ReactJs",
-    description:
-      "This app generates invoice from supplied information at a tap",
-    github: "https://github.com/0xlarmideh/invoice-generator",
-    hosted: "https://invoice-generator-0xlarmideh.vercel.app",
-  },
-  {
-    key: 5,
-    title: "Urekka Web App",
-    language: "ReactJs",
-    description: "Web App for an Educational Consulting Firm",
-    github: "https://github.com/Urekka/urekka",
-    hosted: "https://urekka.vercel.app/",
-  },
+  // {
+  //   key: 4,
+  //   title: "Invoicing App",
+  //   language: "ReactJs",
+  //   description:
+  //     "This app generates invoice from supplied information at a tap",
+  //   github: "https://github.com/0xlarmideh/invoice-generator",
+  //   hosted: "https://invoice-generator-0xlarmideh.vercel.app",
+  // },
+  // {
+  //   key: 5,
+  //   title: "Urekka Web App",
+  //   language: "ReactJs",
+  //   description: "Web App for an Educational Consulting Firm",
+  //   github: "https://github.com/Urekka/urekka",
+  //   hosted: "https://urekka.vercel.app/",
+  // },
 ];
 const Projects = () => {
   const projectsMapped = projectsData.map(
