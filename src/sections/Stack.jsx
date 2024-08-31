@@ -1,5 +1,6 @@
 import React from "react";
 import { SiExpress, SiMaterialui } from "react-icons/si";
+import { TbBrandNextjs, TbBrandNuxt } from "react-icons/tb";
 import { DiMongodb } from "react-icons/di";
 
 const Stack = () => {
@@ -34,6 +35,14 @@ const Stack = () => {
         <div className="flex flex-col justify-center items-center">
           <span>VUE</span>
           <i className="bx bxl-vuejs"></i>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <span>NextJs</span>
+          <TbBrandNextjs size={66} color="white" />
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <span>NuxtJs</span>
+          <TbBrandNuxt size={66} color="white" />
         </div>
         <div className="flex flex-col justify-center items-center">
           <span>TYPESCRIPT</span>
