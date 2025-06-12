@@ -2,45 +2,53 @@ import React from "react";
 import { SubHeading, Paragraph, SmallHeading } from "../components/Typography";
 
 const projectsData = [
-  {
-    key: 1,
-    title: "Rain App by Yahshud",
-    language: "ReactJs, TypeScript",
-    description:
-      "RAIN provides a secure and Shariah-compliant investment platform for individuals seeking exposure to real estate assets.",
-    hosted: "https://app.raininvestor.com",
-  },
-  {
-    key: 2,
-    title: "Fleri Admin",
-    language: "ReactJs, Typescript",
-    description: "Admin platform to manage tasks happening on the platform.",
-    hosted: "https://www.loom.com/share/91fab83bd0b24621a520a3839d6b4411",
-  },
-  {
-    key: 3,
-    title: "Genesix Studio Website",
-    language: "NextJs, Typescript",
-    description: "Website for design studio",
-    hosted: "https://genesixstudiowebsite.vercel.app/",
-  },
-  // {
-  //   key: 4,
-  //   title: "Invoicing App",
-  //   language: "ReactJs",
-  //   description:
-  //     "This app generates invoice from supplied information at a tap",
-  //   github: "https://github.com/0xlarmideh/invoice-generator",
-  //   hosted: "https://invoice-generator-0xlarmideh.vercel.app",
-  // },
-  // {
-  //   key: 5,
-  //   title: "Urekka Web App",
-  //   language: "ReactJs",
-  //   description: "Web App for an Educational Consulting Firm",
-  //   github: "https://github.com/Urekka/urekka",
-  //   hosted: "https://urekka.vercel.app/",
-  // },
+	{
+		key: 11,
+		title: "Ordibl",
+		language: "NextJs, TypeScript, ShadCn",
+		description: "An AI Voice Agent for businesses and Organizations",
+		hosted: "https://app.ordibl.ai",
+	},
+	,
+	{
+		key: 1,
+		title: "Rain App by Yahshud",
+		language: "ReactJs, TypeScript, ShadCn",
+		description:
+			"RAIN provides a secure and Shariah-compliant investment platform for individuals seeking exposure to real estate assets.",
+		hosted: "https://app.raininvestor.com",
+	},
+	{
+		key: 2,
+		title: "Fleri Admin",
+		language: "ReactJs, Typescript",
+		description: "Admin platform to manage tasks happening on the platform.",
+		hosted: "https://www.loom.com/share/91fab83bd0b24621a520a3839d6b4411",
+	},
+	{
+		key: 3,
+		title: "Genesix Studio Website",
+		language: "NextJs, Typescript",
+		description: "Website for design studio",
+		hosted: "https://genesixstudiowebsite.vercel.app/",
+	},
+	// {
+	//   key: 4,
+	//   title: "Invoicing App",
+	//   language: "ReactJs",
+	//   description:
+	//     "This app generates invoice from supplied information at a tap",
+	//   github: "https://github.com/0xlarmideh/invoice-generator",
+	//   hosted: "https://invoice-generator-0xlarmideh.vercel.app",
+	// },
+	// {
+	//   key: 5,
+	//   title: "Urekka Web App",
+	//   language: "ReactJs",
+	//   description: "Web App for an Educational Consulting Firm",
+	//   github: "https://github.com/Urekka/urekka",
+	//   hosted: "https://urekka.vercel.app/",
+	// },
 ];
 const Projects = () => {
   const projectsMapped = projectsData.map(

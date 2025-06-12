@@ -7,10 +7,10 @@ const Description = () => {
       <div>
         <Heading
           title="Abdulhameed Busari"
-          className="text-white font-monument max-laptop:text-[4.8vw]  text-[2.5vw] max-laptop:leading-[45px] leading-[100%] mb-[30px] "
+          className="text-white font-monument max-md:text-[calc(100dvw/1920*50)] max-laptop:text-[calc(100dvw/1920*110)]  text-[calc(100dvw/1920*42)] max-laptop:leading-[45px] leading-[100%] mb-[30px] "
         />
         <Paragraph
-          title="Full-stack Developer (MERN)"
+          title="Full-stack Developer"
           className="text-white text-[15px] leading-[0px]  uppercase"
         />
         <a href="mailto:busarioyewole@gmail.com" className="hover:text-white ">
